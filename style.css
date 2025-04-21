@@ -1,0 +1,99 @@
+ /* Importer une police Google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Style général pour le corps */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Barre de navigation */
+.header-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #4CAF50; /* Vert */
+    padding: 10px 20px;
+}
+
+.header-section ul li {
+    margin: 0 15px;
+}
+
+.header-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header-section ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Titres */
+h1, h2, h3 {
+    color: #2c3e50; /* Bleu foncé */
+    font-weight: 700; /* Gras */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Section vidéo */
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/* Section Travail */
+#work ul {
+    list-style: none;
+    padding: 0;
+}
+
+#work ul li {
+    margin-bottom: 30px;
+    background-color: #e8f5e9; /* Vert clair */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulaire de contact */
+form input, form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50; /* Vert */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background-color: #388E3C; /* Vert foncé */
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2c3e50; /* Bleu foncé */
+    color: white;
+    font-size: 14px;
+}
